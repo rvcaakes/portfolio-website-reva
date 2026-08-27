@@ -171,7 +171,7 @@ export const listProyek = [
 
   {
     id: 3,
-    image: "/assets/proyek/bookin.jpeg",
+    image: "/assets/proyek/bookin.png",
     title: "BOOKIN",
     subtitle: "Sistem Informasi Perpustakaan Berbasis Web",
     fullDescription:
