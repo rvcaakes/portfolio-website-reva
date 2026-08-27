@@ -1,11 +1,5 @@
 import HeroImage from "/assets/hero-img.webp";
 
-const Image = {
-  HeroImage,
-};
-
-export default Image;
-
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/nextjs.png";
@@ -18,7 +12,52 @@ import Tools14 from "/assets/tools/html.png";
 import Tools15 from "/assets/tools/css.png";
 import Tools18 from "/assets/tools/vite.png";
 
+const Image = {
+  HeroImage,
+};
 
+export default Image;
+
+
+// ==================== EXPERIENCE ====================
+
+export const listExperience = [
+  {
+    id: 1,
+    title: "Google Developer Group On Campus UNESA",
+    role: "Creative Media Division",
+    year: "2026",
+    type: "Organization",
+    image: "/assets/experience/gdg.jpeg",
+    description:
+      "Contributed to social media management, content creation, and digital engagement strategies, with a focus on Instagram growth and audience engagement.",
+  },
+
+  {
+    id: 2,
+    title: "Pusat Veteriner Farma (Pusvetma)",
+    role: "UI/UX Designer & Web Developer",
+    year: "2026",
+    type: "Internship",
+    image: "/assets/experience/pusvetma.jpeg",
+    description:
+      "Designed the UI/UX for the Pusvetma Internship Management System and contributed to designing and developing the Pusvetma website.",
+  },
+
+  {
+    id: 3,
+    title: "Novo Club — SDN Rangkah IV Surabaya",
+    role: "Speaker / Facilitator",
+    year: "2026",
+    type: "Social Project",
+    image: "/assets/experience/novo.jpeg",
+    description:
+      "Delivered an educational session about bullying to elementary school students, including discussions about its impact, prevention, and positive behavior.",
+  },
+];
+
+
+// ==================== TOOLS ====================
 
 export const listTools = [
   {
@@ -49,7 +88,6 @@ export const listTools = [
     ket: "Framework",
     dad: "400",
   },
-  
   {
     id: 6,
     gambar: Tools6,
@@ -64,7 +102,6 @@ export const listTools = [
     ket: "Javascript Runtime",
     dad: "700",
   },
-  
   {
     id: 10,
     gambar: Tools10,
@@ -79,7 +116,6 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
-
   {
     id: 14,
     gambar: Tools14,
@@ -94,7 +130,6 @@ export const listTools = [
     ket: "Language",
     dad: "1500",
   },
-  
   {
     id: 18,
     gambar: Tools18,
@@ -102,19 +137,19 @@ export const listTools = [
     ket: "Framework",
     dad: "1800",
   },
-  
 ];
 
-import Proyek1 from "/assets/proyek/projectbrainyquack.jpeg";
-import Proyek2 from "/assets/proyek/project2.png";
+
+// ==================== PROJECT ====================
 
 export const listProyek = [
   {
     id: 1,
-    image: Proyek1,
+    image: "/assets/proyek/projectbrainyquack.jpeg",
     title: "BrainyQuack",
     subtitle: "Interactive Quiz Application for Engaging Learning",
-    fullDescription:"BrainyQuack is an interactive quiz application designed to support teaching and learning through features such as quiz creation, participation, scoring, and user history tracking. This study evaluates its functionality and usability using black-box testing and the System Usability Scale (SUS) with 30 participants. The results show that all core features function properly, while the SUS score indicates acceptable usability, with room for improvement in navigation, button comfort, and overall user experience.",
+    fullDescription:
+      "BrainyQuack is an interactive quiz application designed to support teaching and learning through features such as quiz creation, participation, scoring, and user history tracking.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://jurnal.kopusindo.com/index.php/jtpp/article/view/1473/1261",
@@ -123,14 +158,27 @@ export const listProyek = [
 
   {
     id: 2,
-    image: Proyek2,
+    image: "/assets/proyek/project2.png",
     title: "Laundry App",
     subtitle: "Efficient Laundry Tracking and Management App",
-    fullDescription:"BThis laundry application is designed to streamline and manage laundry services efficiently. It allows users to handle customer orders, track laundry status, and monitor transactions in a structured way. Built with a focus on usability, the application helps improve operational efficiency and provides a better user experience for both service providers and customers.",
+    fullDescription:
+      "This laundry application is designed to streamline and manage laundry services efficiently. It allows users to handle customer orders, track laundry status, and monitor transactions in a structured way.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/rvcaakes/Laundry-app",
-    dad: "100",
+    dad: "200",
   },
-  
+
+  {
+    id: 3,
+    image: "/assets/proyek/bookin.jpeg",
+    title: "BOOKIN",
+    subtitle: "Sistem Informasi Perpustakaan Berbasis Web",
+    fullDescription:
+      "BOOKIN is a web-based library information system with three access roles: User, Admin, and Courier. Users can purchase books online and borrow books through the library system. Admins manage books, users, borrowing, and transactions, while Couriers handle the delivery process for book orders and loans.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://github.com/kuwphmi/perpus-ihmato.git",
+    dad: "300",
+  },
 ];
