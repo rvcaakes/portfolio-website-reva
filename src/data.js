@@ -35,7 +35,7 @@ export const listExperience = [
 
   {
     id: 2,
-    title: "Pusat Veteriner Farma (Pusvetma)",
+    title: "Balai Besar Veteriner Farma Pusvetma Surabaya",
     role: "UI/UX Designer & Web Developer",
     year: "2026",
     type: "Internship",
@@ -173,12 +173,40 @@ export const listProyek = [
     id: 3,
     image: "/assets/proyek/bookin.png",
     title: "BOOKIN",
-    subtitle: "Sistem Informasi Perpustakaan Berbasis Web",
+    subtitle: "Web Based Library Information System",
     fullDescription:
-      "BOOKIN is a web-based library information system with three access roles: User, Admin, and Courier. Users can purchase books online and borrow books through the library system. Admins manage books, users, borrowing, and transactions, while Couriers handle the delivery process for book orders and loans.",
+      "BOOKIN is a web based library information system with three access roles: User, Admin, and Courier. Users can purchase books online and borrow books through the library system. Admins manage books, users, borrowing, and transactions, while Couriers handle the delivery process for book orders and loans.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/kuwphmi/perpus-ihmato.git",
     dad: "300",
   },
+
+  {
+    id: 4,
+    image: "/assets/proyek/plantcare.jpg",
+    title: "Plancare Ai",
+    subtitle: "PlantCare-AI: Mango Leaf Disease Detection Web Application",
+    fullDescription:
+      "PlantCare-AI is a web-based application that uses deep learning to detect and classify mango leaf diseases through image uploads or camera capture, providing prediction results in a simple and user-friendly interface.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://plantcare-ai-ashy.vercel.app/",
+    dad: "300",
+  },
+ {
+    id: 5,
+    image: "/assets/proyek/together.png",
+    title: "Together",
+    subtitle: "Together — Volunteer & Community Collaboration Platform",
+    fullDescription:
+      "Together is a mobile app UI/UX design concept that connects volunteers with communities based on their skills, interests, and availability",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://www.figma.com/proto/TZrSpU2jrnR4jFFv7C6VQb/UIUX_GAYATAMA-2026_Terserah_UNESA?node-id=0-1&t=bgM9iggcEMarB6iL-1",
+    dad: "300",
+  },
+
+  
+  
 ];

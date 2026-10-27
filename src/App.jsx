@@ -88,10 +88,11 @@ const [selectedExperience, setSelectedExperience] = useState(null);
 
       {/* ABOUT */}
       <section
-        className="mt-24 p-8 bg-zinc-900/80 backdrop-blur rounded-2xl border border-violet-500/60"
-        id="about"
-        data-aos="fade-up"
-      >
+  ref={aboutRef}
+  className="mt-24 p-8 bg-zinc-900/80 backdrop-blur rounded-2xl border border-violet-500/60"
+  id="about"
+  data-aos="fade-up"
+>
         <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
         <BlurText
           text={`Hi, I’m Reva, a student in Educational Technology & IT at Universitas Negeri Surabaya (UNESA). I’m passionate about data analysis and transforming raw data into actionable insights. I enjoy discovering patterns, understanding trends, and applying them to real-world challenges.
