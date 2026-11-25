@@ -63,7 +63,7 @@ const [selectedExperience, setSelectedExperience] = useState(null);
           />
 
           <div className="flex gap-3">
-            <a href="./assets/CV 2.pdf" className="bg-zinc-900/80 backdrop-blur px-6 py-3 rounded-full border border-white/10 hover:bg-white/10 transition">
+            <a href="./assets/CV terbaru.pdf" className="bg-zinc-900/80 backdrop-blur px-6 py-3 rounded-full border border-white/10 hover:bg-white/10 transition">
               Download CV
             </a>
             <a href="#project" className="bg-zinc-900/80 backdrop-blur px-6 py-3 rounded-full border border-white/10 hover:bg-white/10 transition">
